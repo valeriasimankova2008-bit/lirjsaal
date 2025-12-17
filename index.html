@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LirPetKis - Магазин товаров для животных</title>
+    <meta name="description" content="Магазин товаров для кошек и собак. Качественные корма, игрушки, аксессуары для ваших питомцев. Доставка по всей Беларуси.">
+    <meta name="keywords" content="зоомагазин, товары для животных, корм для кошек, корм для собак, игрушки для животных, аксессуары для питомцев">
+    <link rel="stylesheet" href="style.css">
+    <script src="kataloge.js"></script>
+    <script src="https://kit.fontawesome.com/a8e0678e2f.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Шапка -->
+    <div class="header-container">
+        <header>
+            <div class="logo-section">
+                <div class="icon pulse">
+                    <i class="fa-solid fa-paw"></i>
+                </div>
+                <div class="shapka">
+                    <h1>LirPetKis</h1>
+                    <h3>Любовь и забота о каждом хвостике!</h3>
+                </div>
+            </div>
+
+            <img src="images/sticker.webp" class="dog" alt="Собака и кошка">
+
+            <div class="contact-info">
+                <h4>Контакты</h4>
+                <div class="contact-item telef">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+375291234567">+375 29 123-45-67</a>
+                </div>
+                <div class="contact-item insta">
+                    <i class="fa-brands fa-instagram"></i>
+                    <a href="https://instagram.com/lirkiskis">@lirkiskis</a>
+                </div>
+                <div class="contact-item telegr">
+                    <i class="fa-brands fa-telegram"></i>
+                    <a href="https://t.me/lirkiskiss">@lirkiskiss</a>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- Навигация -->
+    <div class="nav-container">
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">ГЛАВНАЯ</a></li>
+                <li><a href="katalog.html#dog">ВСЕ ДЛЯ СОБАК</a></li>
+                <li><a href="katalog.html#cat">ВСЕ ДЛЯ КОТОВ</a></li>
+                <li><a href="katalog.html#ander">ДРУГОЕ</a></li>
+                <li><a href="katalog.html#sale">АКЦИИ</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Основной контент -->
+    <main class="main-content">
+        <div class="content-grid1">
+            <!-- Левая колонка - акционные товары -->
+            <section class="sales-section fade-in">
+                <h2>Акционные товары</h2>
+                <div class="sales-grid">
+                    <!-- Товар 1 -->
+                    <article class="sale-item fade-in delay-1">
+                        <div class="sale-badge">-30%</div>
+                        <img src="images/photo_2025-12-16_16-35-02.jpg" alt="Корм для собак со скидкой">
+                        <div class="sale-info">
+                            <h3>Корм для собак "Chunky"</h3>
+                            <p>Полнорационный сухой корм для взрослых собак всех пород</p>
+                            <div class="price-container">
+                                <span class="new-price">45.99 руб</span>
+                                <span class="old-price">65.70 руб</span>
+                            </div>
+                            <a href="katalog.html#sales" class="btn-buy">Купить сейчас</a>
+                        </div>
+                    </article>
+
+                    <!-- Товар 2 -->
+                    <article class="sale-item fade-in delay-2">
+                        <div class="sale-badge">ХИТ</div>
+                        <img src="images/photo_2025-12-16_12-27-15.jpg" alt="Миска для собак">
+                        <div class="sale-info">
+                            <h3>Интерактивная игрушка для кош</h3>
+                            <p>Автоматическая игрушка с перьями и лазерной указкой</p>
+                            <div class="price-container"><span class="new-price">29.50 руб</span>
+                                <span class="old-price">35.00 руб</span>
+                            </div>
+                            <a href="katalog.html#sales" class="btn-buy">Купить сейчас</a>
+                        </div>
+                    </article>
+
+                    <!-- Товар 3 -->
+                    <article class="sale-item fade-in delay-3">
+                        <div class="sale-badge">НОВИНКА</div>
+                        <img src="images/photo_2025-12-16_16-36-42.jpg" alt="Лежак для животных">
+                        <div class="sale-info">
+                            <h3>Ортопедический лежак</h3>
+                            <p>Удобный лежак с памятью формы для кошек и маленьких собак</p>
+                            <div class="price-container">
+                                <span class="new-price">67.80 руб</span>
+                                <span class="old-price">84.75 руб</span>
+                            </div>
+                            <a href="katalog.html#sales" class="btn-buy">Купить сейчас</a>
+                        </div>
+                    </article>
+                    <!-- Товар 4 -->
+                    <article class="sale-item fade-in delay-4">
+                        <div class="sale-badge">-50%</div>
+                        <img src="images/photo_2025-12-15_16-32-16.jpg" alt="Ошейник декоративный">
+                        <div class="sale-info">
+                            <h3>Ошейник декоративный</h3>
+                            <p>Розовый ошейник для кошек и маленьких собак</p>
+                            <div class="price-container">
+                                <span class="new-price">15.50 руб</span>
+                                <span class="old-price">30.99 руб</span>
+                            </div>
+                            <a href="katalog.html#sales" class="btn-buy">Купить сейчас</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Правая колонка -->
+            <aside class="right-column">
+                <!-- Почему выбирают нас -->
+                <section class="features-section fade-in">
+                    <h2>Почему выбирают нас?</h2>
+                    <div class="features-grid">
+                        <div class="feature-card fade-in delay-1">
+                            <i class="fa-solid fa-truck-fast"></i>
+                            <h3>Быстрая доставка</h3>
+                            <p>Доставляем заказы по всей Беларуси в течение 1-2 дней</p>
+                        </div>
+
+                        <div class="feature-card fade-in delay-2">
+                            <i class="fa-solid fa-award"></i>
+                            <h3>Гарантия качества</h3>
+                            <p>Только сертифицированные товары от проверенных брендов</p>
+                        </div>
+
+                        <div class="feature-card fade-in delay-3">
+                            <i class="fa-solid fa-shield-alt"></i>
+                            <h3>Безопасность</h3>
+                            <p>Все товары прошли ветеринарный контроль и безопасны для питомцев</p>
+                        </div>
+
+                        <div class="feature-card fade-in">
+                            <i class="fa-solid fa-comments-dollar"></i>
+                            <h3>Выгодные цены</h3>
+                            <p>Регулярные акции и скидки для наших постоянных клиентов</p>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+            <!-- Поиск -->
+            <section class="search-section fade-in">
+                <h3>Поиск товаров</h3>
+                <form class="search-form" action="#">
+                    <input type="text" placeholder="Введите название товара...">
+                    <button type="submit">
+                            <i class="fa-solid fa-search"></i> Найти
+                        </button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>О магазине LirPetKis</h3>
+                <p>Мы - специализированный магазин товаров для домашних животных, работающий с 2018 года. Наша миссия - обеспечить ваших питомцев всем необходимым для счастливой и здоровой жизни.</p>
+                <p>В нашем ассортименте только качественные товары от проверенных производителей.</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/lirkiskis"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://t.me/lirkiskiss"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="/gdgdgd.html"><i class="fa-brands fa-tiktok"></i></a>
+
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Контактная информация</h3>
+                <p><i class="fa-solid fa-location-dot"></i> г. Минск, ул. Питомцев, 15</p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+375291234567">+375 29 123-45-67</a></p>
+                <p><i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:info@lirpetkis.by">lirpetkis@icloud.com</a>
+                </p>
+                <p><i class="fa-solid fa-clock"></i> Пн-Пт: 9:00-20:00, Сб-Вс: 10:00-18:00</p>
+
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 LirPetKis. Все права защищены.</p>
+            <p>Сайт разработан с любовью для ваших питомцев
+                <span class="heard">
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

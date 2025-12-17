@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LirPetKis - Все для собак</title>
+    <meta name="description" content="Товары для собак: корма, игрушки, аксессуары, лежаки, ошейники, поводки.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="images/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="kataloge.js"></script>
+</head>
+
+<body>
+
+    <!-- Шапка -->
+    <div class="header-container">
+        <header>
+            <div class="logo-section">
+                <div class="icon pulse">
+                    <i class="fa-solid fa-paw"></i>
+                </div>
+                <div class="shapka">
+                    <h1>LirPetKis</h1>
+                    <h3>Любовь и забота о каждом хвостике!</h3>
+                </div>
+            </div>
+
+            <img src="images/sticker.webp" class="dog" alt="Собака и кошка">
+
+            <div class="contact-info">
+                <h4>Контакты</h4>
+                <div class="contact-item telef">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+375291234567">+375 29 123-45-67</a>
+                </div>
+                <div class="contact-item insta">
+                    <i class="fa-brands fa-instagram"></i>
+                    <a href="https://instagram.com/lirkiskis">@lirkiskis</a>
+                </div>
+                <div class="contact-item telegr">
+                    <i class="fa-brands fa-telegram"></i>
+                    <a href="https://t.me/lirkiskiss">@lirkiskiss</a>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- Навигация -->
+    <div class="nav-container">
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">ГЛАВНАЯ</a></li>
+                <li><a href="#dog">ВСЕ ДЛЯ СОБАК</a></li>
+                <li><a href="#cat">ВСЕ ДЛЯ КОТОВ</a></li>
+                <li><a href="#ander">ДРУГОЕ</a></li>
+                <li><a href="#sale">АКЦИИ</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Основной контент -->
+    <main class="katalog">
+        <div class="container">
+            <div class="content-grid">
+                <section class="sales-section fade-in">
+                    <h2 id="dog">Товары для собак</h2>
+                    <div class="sales-grid">
+                        <!-- Товар 1 -->
+                        <article class="sale-item">
+                            <img src="images/photo_17_2025-12-16_20-17-05.jpg" alt="Корм для собак">
+                            <div class="sale-info">
+                                <h3>Сухой корм для собак крупных пород</h3>
+                                <p>20кг, с курицей и рисом, для активных собак</p>
+                                <div class="price-container">
+                                    <span class="new-price">89.99 руб</span>
+                                </div>
+                                <button class="btn-buy" onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+
+                        <!-- Товар 2 -->
+                        <article class="sale-item">
+                            <img src="images/photo_16_2025-12-16_20-17-05.jpg" alt="Корм для собак">
+                            <div class="sale-info">
+                                <h3>Корм для собак крупных парод</h3>
+                                <p>Премиум качество, большой объем 30 кг</p>
+                                <div class="price-container">
+                                    <span class="new-price">65.50 руб</span>
+                                </div>
+                                <button class="btn-buy" onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+
+                        <!-- Товар 3 -->
+                        <article class="sale-item">
+                            <img src="images/photo_35_2025-12-16_20-17-05.jpg" alt="Лежак для собак">
+                            <div class="sale-info">
+                                <h3>Ортопедический лежак для собак</h3>
+                                <p>Большой лежак с памятью формы для маленьких пород</p>
+                                <div class="price-container">
+                                    <span class="new-price">80.00 руб</span>
+                                </div>
+                                <button class="btn-buy" onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+
+                        <!-- Товар 4 -->
+                        <article class="sale-item">
+                            <img src="images/photo_20_2025-12-16_20-17-05.jpg" alt="Ошейник для собак">
+                            <div class="sale-info">
+                                <h3>Кожаный ошейник с гравировкой</h3>
+                                <p>Прочный ошейник с возможностью гравировки имени</p>
+                                <div class="price-container">
+                                    <span class="new-price">24.99 руб</span>
+                                </div>
+                                <button class="btn-buy" onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+
+                        <!-- Товар 5 -->
+                        <article class="sale-item">
+                            <img src="images/photo_6_2025-12-16_20-17-05.jpg" alt="Ошейник для собак">
+                            <div class="sale-info">
+                                <h3>Шлейка</h3>
+                                <p>Прочная, подойдет для собак средних пород</p>
+                                <div class="price-container">
+                                    <span class="new-price">39.99 руб</span>
+                                </div>
+                                <button class="btn-buy" onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 6 -->
+                        <article class="sale-item">
+                            <img src="images/photo_9_2025-12-16_20-17-05.jpg" alt="Ошейник для собак">
+                            <div class="sale-info">
+                                <h3>Корм для собак средних пород</h3>
+                                <p>10 кг, премиум качество</p>
+                                <div class="price-container">
+                                    <span class="new-price">49.99 руб</span>
+                                </div>
+                                <button class="btn-buy" onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 7 -->
+                        <article class="sale-item">
+                            <img src="images/photo_26_2025-12-16_20-17-05.jpg " alt="Ошейник для собак ">
+                            <div class="sale-info ">
+                                <h3>Поводок розовый автоматический</h3>
+                                <p>Удобен для прогулок с собакми маленьких и средних пород, 3 м</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">30.99 руб</span>
+                                </div>
+                                <button class="btn-buy" onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 8 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_1_2025-12-16_20-17-05.jpg " alt="Ошейник для собак ">
+                            <div class="sale-info ">
+                                <h3>Миска с ковриком</h3>
+                                <p>Антискользящий коврик, 40 см</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">25.99 руб</span>
+                                </div>
+                                <button class="btn-buy" onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 id="cat">Товары для котов</h2>
+                    <div class="sales-grid ">
+                        <!-- Товар 9 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_8_2025-12-16_20-17-05.jpg " alt="Ошейник для собак ">
+                            <div class="sale-info ">
+                                <h3>Ошейник декоративный</h3>
+                                <p>Розовый цвет, регулируется</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">14.99 руб</span>
+                                </div>
+                                <button class="btn-buy" onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 10 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_3_2025-12-16_20-17-05.jpg " alt="Ошейник для собак ">
+                            <div class="sale-info ">
+                                <h3>Лежанка бежевая</h3>
+                                <p>Мягкая лежанка с лапками</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">39.99 руб</span>
+                                </div>
+                                <button class="btn-buy" onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 11 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_11_2025-12-16_20-17-05.jpg " alt="Ошейник для собак ">
+                            <div class="sale-info ">
+                                <h3>Корм для всех пород кошек</h3>
+                                <p>Премиальное качество, 10 кг</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">35.99 руб</span>
+                                </div>
+                                <button class="btn-buy" onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 12 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_12_2025-12-16_20-17-05.jpg " alt="Ошейник для собак ">
+                            <div class="sale-info ">
+                                <h3>Корм для всех пород кошек</h3>
+                                <p>Премиальное качество, 15 кг</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">50.99 руб</span>
+                                </div>
+                                <button class="btn-buy" onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 13 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_21_2025-12-16_20-17-05.jpg " alt="Ошейник для собак ">
+                            <div class="sale-info ">
+                                <h3>Игрушка для котов</h3>
+                                <p>Игрушка мышь 10 см, со звуковым эффектом</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">14.99 руб</span>
+                                </div>
+                                <button class="btn-buy" onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 14 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_2_2025-12-16_20-17-05.jpg " alt="Ошейник для собак ">
+                            <div class="sale-info ">
+                                <h3>Миска черно-белая</h3>
+                                <p>Миска для воды из нержавеющей стали</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">20.99 руб</span>
+                                </div>
+                                <button class="btn-buy" onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 15 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_19_2025-12-16_20-17-05.jpg " alt="Ошейник для собак ">
+                            <div class="sale-info ">
+                                <h3>Кожаный ошейник с гравировкой</h3>
+                                <p>Прочный ошейник с возможностью гравировки имени</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">14.99 руб</span>
+                                </div>
+                                <button class="btn-buy " onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 16 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_34_2025-12-16_20-17-05.jpg " alt="Ошейник для собак ">
+                            <div class="sale-info ">
+                                <h3>Плед</h3>
+                                <p>Мягкий плед для вашего кота 1м х 1м</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">34.99 руб</span>
+                                </div>
+                                <button class="btn-buy " onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <h2 id="ander">Другое</h2>
+                    <div class="sales-grid ">
+                        <!-- Товар 17 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_31_2025-12-16_20-17-05.jpg " alt="Ошейник для собак ">
+                            <div class="sale-info ">
+                                <h3>Органайзер</h3>
+                                <p>Органайзер для игрушек</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">34.99 руб</span>
+                                </div>
+                                <button class="btn-buy " onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 18 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_36_2025-12-16_20-17-05.jpg " alt="Ошейник для собак ">
+                            <div class="sale-info ">
+                                <h3>Миска с двумя тарами</h3>
+                                <p>Универсальная, нержавеющая сталь</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">24.99 руб</span>
+                                </div>
+                                <button class="btn-buy " onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 19 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_33_2025-12-16_20-17-05.jpg " alt="Ошейник для собак ">
+                            <div class="sale-info ">
+                                <h3>Пред серый</h3>
+                                <p>Плед универсальный, теплый</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">34.99 руб</span>
+                                </div>
+                                <button class="btn-buy " onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 20 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_5_2025-12-16_20-17-05.jpg" alt="Ошейник для собак ">
+                            <div class="sale-info ">
+                                <h3>Лежанка DIOR</h3>
+                                <p>Премиальное качество бренда, для кошек и собак мелких пород</p>
+                                <div class="price-container">
+                                    <span class="new-price ">120.99 руб</span>
+                                </div>
+                                <button class="btn-buy" onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 id="sale">Акции</h2>
+                    <div class="sales-grid ">
+                        <!-- Товар 25 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_2025-12-16_16-36-42.jpg " alt="Лежак для животных " id="sales ">
+                            <div class="sale-info ">
+                                <h3>Ортопедический лежак</h3>
+                                <p>Удобный лежак с памятью формы для кошек и маленьких собак</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">67.80 руб</span>
+                                    <span class="old-price ">84.75 руб</span>
+                                </div>
+                                <button class="btn-buy " onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 26 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_2025-12-16_12-27-15.jpg " alt="Миска для собак " id="sales ">
+                            <div class="sale-info ">
+                                <h3>Интерактивная игрушка для кош</h3>
+                                <p>Автоматическая игрушка с перьями и лазерной указкой</p>
+                                <div class="price-container "><span class="new-price ">29.50 руб</span>
+                                    <span class="old-price ">35.00 руб</span>
+                                </div>
+                                <button class="btn-buy " onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 27 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_2025-12-16_16-35-02.jpg " alt="Корм для собак со скидкой " id="sales ">
+                            <div class="sale-info ">
+                                <h3>Корм для собак "Chunky "</h3>
+                                <p>Полнорационный сухой корм для взрослых собак всех пород</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">45.99 руб</span>
+                                    <span class="old-price ">65.70 руб</span>
+                                </div>
+                                <button class="btn-buy " onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                        <!-- Товар 28 -->
+                        <article class="sale-item ">
+                            <img src="images/photo_2025-12-15_16-32-16.jpg " alt="Ошейник декоративный " id="sales">
+                            <div class="sale-info ">
+                                <h3>Ошейник декоративный</h3>
+                                <p>Розовый ошейник для кошек и маленьких собак</p>
+                                <div class="price-container ">
+                                    <span class="new-price ">15.50 руб</span>
+                                    <span class="old-price ">30.99 руб</span>
+                                </div>
+                                <button class="btn-buy " onclick="addToCart(this)">В корзину</button>
+                            </div>
+                        </article>
+                    </div>
+
+            </div>
+            </section>
+
+            <aside class="right-column">
+                <section class="features-section fade-in">
+                    <h2>Ваша корзина</h2>
+                    <div class="features-grid">
+                        <!-- Корзина -->
+                        <aside class="right-column">
+                            <section class="features-section fade-in">
+
+                                <div id="cart-section" class="cart-container">
+                                    <div id="cart-items" class="cart-items">
+
+                                        <p id="empty-cart-message">Корзина пуста</p>
+                                    </div>
+
+                                    <div class="cart-total">
+                                        <h3>Итого: <span id="total-price">0.00</span> руб</h3>
+                                    </div>
+
+                                    <form id="order-form" class="order-form">
+                                        <h3>Оформление заказа</h3>
+
+                                        <div class="form-group">
+                                            <label for="fullname">ФИО:</label>
+                                            <input type="text" id="fullname" name="fullname" required placeholder="Иванов Иван Иванович">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="phone">Номер телефона:</label>
+                                            <input type="tel" id="phone" name="phone" required placeholder="+375 29 123-45-67">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="delivery">Способ получения:</label>
+                                            <select id="delivery" name="delivery" required>
+                        <option value=" ">Выберите способ</option>
+                        <option value="courier">Курьер (+5 руб)</option>
+                        <option value="pickup">Самовывоз</option>
+                    </select>
+                                        </div>
+
+                                        <div class="form-group" id="address-group" style="display: none;">
+                                            <label for="address">Адрес доставки:</label>
+                                            <input type="text " id="address" name="address" placeholder="Улица, дом, квартира">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="email">Email:</label>
+                                            <input type="email" id="email" name="email" required placeholder="example@email.com">
+                                        </div>
+
+                                        <button type="submit" class="btn-submit" id="submit-btn">
+                    Оставить заявку
+                </button>
+
+                                        <p class="order-notice" id="order-notice">
+                                            Оператор свяжется с вами в течение 15 минут для оформления заказа
+                                        </p>
+
+                                        <div id="success-message" class="success-message" style="display: none;">
+                                            <i class="fa-solid fa-check-circle"></i>
+                                            <p>Ваша заявка оформлена!</p>
+                                        </div>
+                                    </form>
+                                </div>
+                            </section>
+                        </aside>
+
+                    </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>О магазине LirPetKis</h3>
+                    <p>Мы - специализированный магазин товаров для домашних животных, работающий с 2023 года.</p>
+                    <div class="social-links"><a href="https://instagram.com/lirkiskis"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://t.me/lirkiskiss"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <p><i class="fa-solid fa-phone"></i> <a href="tel:+375291234567">+375 29 123-45-67</a></p>
+                    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:info@lirpetkis.by">info@lirpetkis.by</a></p>
+                    <p><i class="fa-solid fa-clock"></i> Пн-Пт: 9:00-20:00, Сб-Вс: 10:00-18:00</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 LirPetKis. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
